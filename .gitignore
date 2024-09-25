@@ -1,18 +1,19 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Creado por https://www.toptal.com/developers/gitignore/api/database
+# Editar en https://www.toptal.com/developers/gitignore?templates=database
 
-# Other files and folders
-.settings/
+### Base de datos ###
+*.accdb
+*.base de datos
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+*.db-shm
+*.db-wal
+*.sql
+*.db
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
+# Fin de https://www.toptal.com/developers/gitignore/api/database
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
